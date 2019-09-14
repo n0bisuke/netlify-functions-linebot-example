@@ -1,5 +1,20 @@
 
-## 
+
+
+## dependencies
+
+* express
+* @line/bot-sdk
+* serverless-http
+* netlify-lambda
+* dotenv
+
+## .env
+
+```
+CHANNEL_SECRET=xxxxxxxxxxx
+CHANNEL_ACCESS_TOKEN=xxxxxxxxxxx
+```
 
 ## Webhook URL
 

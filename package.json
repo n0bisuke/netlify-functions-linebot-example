@@ -1,16 +1,20 @@
 {
-  "name": "nftest",
+  "name": "netlify-functions-linebot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "netlify-lambda serve ./",
-    "build": "netlify-lambda build ./"
+    "dev": "netlify-lambda serve ./src",
+    "build": "netlify-lambda build ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "netlify-lambda": "^1.6.3"
+    "@line/bot-sdk": "^6.8.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.3.0"
   }
 }
